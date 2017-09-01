@@ -7,5 +7,24 @@
 </head>
 <body>
 	<h3>객체 접근</h3>
+	============ scope test1 ============<br>
+	page scope : ${pageScope.userVo1.no }<br>
+	
+	request scope : ${pageScope.userVo2.no }<br>
+	
+	session scope : ${pageScope.userVo3.no }<br>
+	
+	application scope : ${pageScope.userVo4.no }<br>
+	
+	
+	============ scope test1 ============<br>
+	page scope : ${userVo1.no }<br>
+	
+	request scope : ${userVo2.no }<br>
+	
+	session scope : ${userVo3.no }<br>
+	
+	application scope : ${userVo4.no }<br>
+	 
 </body>
 </html>

@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,5 +8,12 @@
 </head>
 <body>
 	<h3>데이터 형</h3>
+	${iVal}<br>
+	${fVal}<br>
+	${sVal}<br>
+	${bVal}<br>
+	----${nVal}----<br>
+	
+	${userVo.no} : ${userVo.email }
 </body>
 </html>
